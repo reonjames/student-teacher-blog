@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DETAILS</title>
+</head>
+    
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>
+            <label>NAME</label>
+            <input type="text" name="name">
+        </p>
+        <p>
+            <label>Roll no.</label>
+            <input type="text" name="rn">
+        </p>
+        <p>
+            <label>age</label>
+            <input type="text" name="age">
+        </p>
+        <p>
+            <label>class</label>
+            <input type="text" name="class">
+        </p>
+        <p>
+            <label>year</label>
+            <input type="text" name="year">
+        </p>
+        <button type="submit" value="User">save</button>
+    </form>
+</body>
+    
+</html>

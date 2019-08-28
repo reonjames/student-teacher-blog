@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACADEMIC DETAILS</title>
+</head>
+    
+<body>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Biology</label>
+            <input type="text" name="bio">
+        </p>
+        <p>
+            <label>Maths</label>
+            <input type="text" name="math">
+        </p>
+        <p>
+            <label>English</label>
+            <input type="text" name="eng">
+        </p>
+        <p>
+            <label>Chemistry</label>
+            <input type="text" name="chem">
+        </p>
+       
+        <button type="submit" value="User">save</button>
+    </form>
+</body>
+    
+</html>
